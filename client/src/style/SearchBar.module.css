@@ -1,0 +1,72 @@
+.container {
+  background-image: url("../img/Backgrounds/Brick\ Block.jpg");
+  display: flex;
+  gap: 240px;
+  height: 70px;
+}
+
+.container h1 {
+  color: white;
+  -webkit-text-stroke: 2px black;
+  padding-top: 10px;
+  margin-left: 20px;
+}
+
+.search {
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.search input {
+  color: black;
+  border: 2px solid #f1c40f;
+  border-radius: 10px;
+  padding: 10px 25px;
+  background: white;
+  max-width: 190px;
+}
+
+.search input:active {
+  box-shadow: 2px 2px 15px #4eddfa inset;
+}
+
+.search button {
+  color: black;
+  margin-left: 8px;
+  padding: 0.7em 1.7em;
+  font-size: 13px;
+  border-radius: 0.5em;
+  background: #FFCB1D;
+  border: 2px solid black;
+  transition: all 0.3s;
+}
+
+.search button:hover {
+  border: 2px solid white;
+}
+
+.search button:active {
+  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+}
+
+.link {
+  padding-top: 20px;
+}
+
+.link button {
+  color: black;
+  padding: 0.7em 1.7em;
+  font-size: 13px;
+  border-radius: 0.5em;
+  background: #FFCB1D;
+  border: 2px solid white;
+  transition: all 0.3s;
+}
+
+.link button:hover {
+  border: 2px solid black;
+}
+
+.link button:active {
+  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+}

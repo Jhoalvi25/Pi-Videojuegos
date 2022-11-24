@@ -1,0 +1,38 @@
+footer {
+  margin-top: 150px;
+}
+
+.section {
+  background-image: url("../img/Backgrounds/footer2.jpg");
+  /* margin-bottom: 10px; */
+}
+
+.section h3{
+    padding-top: 20px;
+}
+
+#contacts img {
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+
+#contacts a {
+  text-decoration: none;
+}
+
+#contacts img:hover {
+  opacity: 0.8;
+}
+
+#contacts {
+  text-align: center;
+}
+
+.copyright {
+  font-size: 9pt;
+  text-align: right;
+  padding-right: 5px;
+  color: rgb(0, 0, 0);
+}

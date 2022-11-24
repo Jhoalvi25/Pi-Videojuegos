@@ -1,0 +1,38 @@
+.card {
+  top: 5rem;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  width: 250px;
+  height: 350px;
+  background-image: url("../img/Backgrounds/Brick\ Block.jpg");
+  overflow: hidden;
+  box-shadow: 0px 20px 40px rgba(77, 73, 89, 0.62);
+  border: 3px solid #7b241c;
+}
+
+.card:hover {
+  border: 3px solid #f1c40f;
+}
+
+.container img {
+  margin-top: 10px;
+}
+
+.container h3 {
+  font-size: 14px;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.container h5 {
+  font-size: 12px;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.container label {
+  color: white;
+  font-size: 16px;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
